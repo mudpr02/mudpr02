@@ -19,7 +19,6 @@ public class Child extends Parent
 		Child c=new Child();
 		c.printa();
 		c.printb();
-		
 	}
 	
 }
