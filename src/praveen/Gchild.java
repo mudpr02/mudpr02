@@ -4,7 +4,7 @@ class GFather
 {
 	void eat()
 	{
-		System.out.println("Eating");
+		System.out.println("Eating food");
 	}
 }
 
@@ -12,14 +12,14 @@ class Father extends GFather
 {
 	void vhai()
 	{
-		System.out.println("Vhai Vhai");
+		System.out.println("Extends from GFather");
 	}
 }
 
 public class Gchild extends Father
 {
-	void Harmi(){
-		System.out.println("G Harami");
+	void Child(){
+		System.out.println("ChildClass");
 	}
 	
 	
@@ -27,7 +27,7 @@ public class Gchild extends Father
 	{
 		Gchild c= new Gchild();
 		c.eat();
-		c.Harmi();c.vhai();
+		c.Child();c.vhai();
 		
 	}
 		
